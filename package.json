@@ -4,15 +4,16 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "eslint src/** test/** --fix"
+    "test": "jest",
+    "lint": "eslint src/** test/** --fix"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "eslint": "^5.10.0",
-    "eslint-config-airbnb-base": "^13.1.0",
-    "eslint-plugin-import": "^2.14.0",
     "jest": "23.6.0"
+  },
+  "dependencies": {
+    "eslint": "^7.16.0"
   }
 }
