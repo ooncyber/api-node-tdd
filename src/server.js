@@ -1,8 +1,5 @@
-const express = require('express');
-const app = express();
+const app = require('./app');
 
-app.get('/', (req, res) => {
-  res.status(200).send();
+app.listen(3001, (req, res) => {
+  console.log("ouvindo na localhost:3001");
 })
-
-app.listen(3001);
